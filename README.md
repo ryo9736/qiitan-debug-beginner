@@ -25,6 +25,15 @@ Rails学習用アプリ初級編。
   - バグは10個あるので最高40点とする。
 
 ## 環境構築手順
+
+```
+$ git clone git@github.com:dic-mokumoku/qiitan-debug-beginner.git
+$ cd qiitan-debug-beginner
+$ rbenv install 2.5.1
+$ gem install bundler
+```
+
+
 ### 環境
 - ruby v2.5.1
 - rails v5.2.2
