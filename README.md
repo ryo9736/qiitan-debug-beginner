@@ -21,13 +21,20 @@ Rails学習用アプリ初級編。
 ## ルール
 
 - 制限時間は20分とする。
-- バグを見つければ1点、修正ができれば2点、発表したら1点
-  - バグは10個あるので最高40点とする。
+- バグ発見1点
+- バグ発見の方法を発表1点
+- バグ修正2点
+- バグ修正の方法を発表1点
+  - バグは10個あるので最高50点とする。
 
 ## 環境構築手順
 
 ```
-$ git clone git@github.com:dic-mokumoku/qiitan-debug-beginner.git
+1. qiitan-debug-beginnerをForkする
+https://github.com/dic-mokumoku/qiitan-debug-beginner
+Forkボタンを実行する。
+
+$ git clone [ForkしたリポジトリのURL]
 $ cd qiitan-debug-beginner
 $ rbenv install 2.5.1
 $ gem install bundler
