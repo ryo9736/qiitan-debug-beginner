@@ -3,8 +3,7 @@ class AccountActivationsController < ApplicationController
 
   def edit
     user = User.find_by(email: params[:email])
-    if user && !user.activated? && user.authenticated?(:activate, params[:id])
-      user.activate
+    if user
       log_in user
       redirect_to root_path, notice: 'アカウントが有効になりました'
     else
